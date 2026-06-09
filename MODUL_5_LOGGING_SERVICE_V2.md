@@ -183,7 +183,7 @@ src="./images/modul_5v2/image9.png"
 style="width:8.21875in;height:1.64135in" />
 
 
-=
+
 
 # Pertanyaan Post-Lab
 
