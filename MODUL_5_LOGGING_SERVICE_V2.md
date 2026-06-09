@@ -182,7 +182,7 @@ style="width:8.21875in;height:5.23456in" />
 src="./images/modul_5v2/image9.png"
 style="width:8.21875in;height:1.64135in" />
 
-\
+
 =
 
 # Pertanyaan Post-Lab
@@ -221,7 +221,8 @@ style="width:5.52202in;height:2.26042in" />
 
 3.  Apa yang terjadi jika container fluent-bit di-stop? Apakah container
     lain juga stop? Apakah log yang dihasilkan selama Fluent Bit down
-    hilang? 
+    hilang?
+    
     <img
     src="./images/modul_5v2/image5.png"
     style="width:8.22917in;height:2.71064in" />
