@@ -117,11 +117,13 @@ Dr. Ferry Astika Saputra, S.T., M.Sc.
 
 **Modul 5: Logging Service**
 
-# docker compose ps — 5 service running <img
+# docker compose ps — 5 service running 
+<img
 src="./images/modul_5v2/image8.png"
 style="width:8.26435in;height:0.83596in" />
 
-# docker compose logs fluent-bit — Fluent Bit menerima log (JSON lines di stdout) <img
+# docker compose logs fluent-bit — Fluent Bit menerima log (JSON lines di stdout) 
+<img
 src="./images/modul_5v2/image6.png"
 style="width:8.2061in;height:3.07143in" />
 
@@ -133,37 +135,44 @@ style="width:8.2061in;height:3.07143in" />
 src="./images/modul_5v2/image11.png"
 style="width:5.67708in;height:1.98958in" />
 
-# SELECT tag, time, data FROM logs.fluentbit LIMIT 3 — raw 3-kolom data <img
+# SELECT tag, time, data FROM logs.fluentbit LIMIT 3 — raw 3-kolom data 
+<img
 src="./images/modul_5v2/image14.png"
 style="width:8.30089in;height:1.68441in" />
 
-# SELECT \* FROM logs.recent_logs LIMIT 10 — log terbaru via view <img
+# SELECT \* FROM logs.recent_logs LIMIT 10 — log terbaru via view 
+<img
 src="./images/modul_5v2/image7.png"
 style="width:8.30208in;height:1.96916in" />
 
-# SELECT \* FROM logs.structured_logs LIMIT 10 — parsed JSON log <img
+# SELECT \* FROM logs.structured_logs LIMIT 10 — parsed JSON log 
+<img
 src="./images/modul_5v2/image2.png"
 style="width:8.2233in;height:1.90856in" />
 
-# Query distribusi per tag — output tabel <img
+# Query distribusi per tag — output tabel 
+<img
 src="./images/modul_5v2/image10.png"
 style="width:8.30208in;height:1.76252in" />
 
 # Query distribusi per level — output tabel 
 
-> <img
-> src="./images/modul_5v2/image16.png"
-> style="width:8.21875in;height:2.11916in" />
+<img
+src="./images/modul_5v2/image16.png"
+style="width:8.21875in;height:2.11916in" />
 
-# SELECT \* FROM logs.error_summary — summary error <img
+# SELECT \* FROM logs.error_summary — summary error 
+<img
 src="./images/modul_5v2/image4.png"
 style="width:8.10417in;height:1.11492in" />
 
-# Query log rate per menit — output tabel <img
+# Query log rate per menit — output tabel 
+<img
 src="./images/modul_5v2/image13.png"
 style="width:8.21875in;height:3.31401in" />
 
-# curl /api/logs/stats — response JSON <img
+# curl /api/logs/stats — response JSON 
+<img
 src="./images/modul_5v2/image12.png"
 style="width:8.21875in;height:5.23456in" />
 
@@ -181,9 +190,10 @@ style="width:8.21875in;height:1.64135in" />
 1.  Berapa total log yang masuk ke PostgreSQL setelah 5 menit? Tunjukkan
     distribusi per tag dan per level.
 
-> <img
-> src="./images/modul_5v2/image3.png"
-> style="width:8.37185in;height:3.83852in" />
+> 
+<img
+src="./images/modul_5v2/image3.png"
+style="width:8.37185in;height:3.83852in" />
 
 2.  Tulis query SQL yang menampilkan log rate per menit selama 10 menit
     terakhir. Tunjukkan hasilnya.
@@ -204,13 +214,15 @@ style="width:8.21875in;height:1.64135in" />
 >
 > ORDER BY minute;
 >
-> <img
-> src="./images/modul_5v2/image15.png"
-> style="width:5.52202in;height:2.26042in" />
+> 
+<img
+src="./images/modul_5v2/image15.png"
+style="width:5.52202in;height:2.26042in" />
 
 3.  Apa yang terjadi jika container fluent-bit di-stop? Apakah container
     lain juga stop? Apakah log yang dihasilkan selama Fluent Bit down
-    hilang? <img
+    hilang? 
+    <img
     src="./images/modul_5v2/image5.png"
     style="width:8.22917in;height:2.71064in" />
 
@@ -278,7 +290,8 @@ style="width:8.21875in;height:1.64135in" />
     (structured JSON) saat tersimpan di kolom data JSONB. Mengapa view
     structured_logs hanya menampilkan log JSON?
 
-### Kesimpulan<img
+### Kesimpulan
+<img
 src="./images/modul_5v2/image1.png"
 style="width:8.25923in;height:2.21708in" />
 
